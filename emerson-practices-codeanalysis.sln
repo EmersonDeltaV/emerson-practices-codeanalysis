@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emerson.ConsoleApp", "Emerson.ConsoleApp\Emerson.ConsoleApp.csproj", "{E52A21C8-3663-4BB1-93EC-B5BC43D79096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emerson.ConsoleApp.Test", "Emerson.ConsoleApp.Test\Emerson.ConsoleApp.Test.csproj", "{E98B7A9D-9D97-420A-8F95-E8D3F08DA8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EC0AC44-084D-43D4-AB7D-42BC6F32A8B3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{6F629C68-E9B4-419A-9B78-2CCA6598F386}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\readme.md = CodeAnalysis\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "None", "None", "{79A7777E-2C42-4766-9490-04F511BED8C8}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\None\.editorconfig = CodeAnalysis\None\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Suggestive", "Suggestive", "{69AC1148-EBC9-4A78-A980-D4AE9BA1A394}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\Suggestive\.editorconfig = CodeAnalysis\Suggestive\.editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E52A21C8-3663-4BB1-93EC-B5BC43D79096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52A21C8-3663-4BB1-93EC-B5BC43D79096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52A21C8-3663-4BB1-93EC-B5BC43D79096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52A21C8-3663-4BB1-93EC-B5BC43D79096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98B7A9D-9D97-420A-8F95-E8D3F08DA8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98B7A9D-9D97-420A-8F95-E8D3F08DA8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98B7A9D-9D97-420A-8F95-E8D3F08DA8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98B7A9D-9D97-420A-8F95-E8D3F08DA8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79A7777E-2C42-4766-9490-04F511BED8C8} = {6F629C68-E9B4-419A-9B78-2CCA6598F386}
+		{69AC1148-EBC9-4A78-A980-D4AE9BA1A394} = {6F629C68-E9B4-419A-9B78-2CCA6598F386}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {307325A7-9C37-4E1C-9744-8D2986FD42F8}
+	EndGlobalSection
+EndGlobal
