@@ -3,6 +3,10 @@
     // Sample class with code analysis issue
     public class Universe
     {
+        public Universe()
+        {
+        }
+
         public Universe(List<Entity> entities)
         {
             entities.ForEach(e => Entities.Add(e));
