@@ -12,7 +12,7 @@
             entities.ForEach(e => Entities.Add(e));
         }
 
-        public List<Entity> Entities { get; set; }
+        public List<Entity> Entities { get; set; } = new List<Entity>();
 
         public string GetNames()
         {
