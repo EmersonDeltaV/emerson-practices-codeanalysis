@@ -249,6 +249,9 @@ dotnet_diagnostic.CS8618.severity = suggestion
 # S3415: Assertion arguments should be passed in the correct order
 dotnet_diagnostic.S3415.severity = error
 
+# S3168: "async" methods should not return "void"
+dotnet_diagnostic.S3168.severity = error
+
 [*.{cs,vb}]
 dotnet_style_operator_placement_when_wrapping = beginning_of_line
 tab_width = 4
